@@ -1,0 +1,37 @@
+﻿Build started 11-Jan-18 1:45:02 PM.
+     1>Project "C:\Users\Waleed\Desktop\game\bgi.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\bgi.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt spaceInvasion.cpp
+         spaceInvasion.cpp
+     1>c:\users\waleed\desktop\game\spaceinvasion.cpp(1251): warning C4101: 'gm' : unreferenced local variable
+     1>c:\users\waleed\desktop\game\spaceinvasion.cpp(2068): warning C4101: 'sq' : unreferenced local variable
+     1>c:\users\waleed\desktop\game\spaceinvasion.cpp(2068): warning C4101: 'collY' : unreferenced local variable
+     1>c:\users\waleed\desktop\game\spaceinvasion.cpp(2068): warning C4101: 'collX' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Waleed\Desktop\game\Debug\bgi.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\bgi.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Waleed\Desktop\game\Debug\bgi.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Waleed\Desktop\game\Debug\bgi.lib" /MACHINE:X86 Debug\bgiout.obj
+         Debug\dibutil.obj
+         Debug\drawing.obj
+         Debug\file.obj
+         Debug\misc.obj
+         Debug\mouse.obj
+         Debug\palette.obj
+         Debug\main.obj
+         Debug\spaceInvasion.obj
+         Debug\text.obj
+         Debug\winbgi.obj
+         Debug\winthread.obj
+         LINK : C:\Users\Waleed\Desktop\game\Debug\bgi.exe not found or not built by the last incremental link; performing full link
+     1>LINK : warning LNK4031: no subsystem specified; CONSOLE assumed
+         bgi.vcxproj -> C:\Users\Waleed\Desktop\game\Debug\bgi.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Waleed\Desktop\game\Debug\bgi.exe;#1" /manifest Debug\bgi.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\bgi.unsuccessfulbuild".
+         Touching "Debug\bgi.lastbuildstate".
+     1>Done Building Project "C:\Users\Waleed\Desktop\game\bgi.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.18
